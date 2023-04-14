@@ -11,8 +11,23 @@
   border: 1px solid white;
 }
 
-.tarea-contenedor:nth-child(3n + 1){
-  background-color: #1b1b32; 
+/* Tarea Completada */
+.completada {
+  background-color: #55009f;
+  text-decoration: line-through;
+  width: 500px;
+  min-height: 65px;
+  margin: 5px 0;
+  padding: 8px 15px 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 7px;
+  border: 1px solid white;
+}
+
+.tarea-contenedor:nth-child(3n + 1) {
+  background-color: #1b1b32;
 }
 
 .tarea-contenedor:nth-child(3n + 2) {
@@ -37,10 +52,4 @@
   height: 30px;
   margin: 5px;
   cursor: pointer;
-}
-
-/* Tarea Completada */ 
-.completada {
-  background-color: #5a01a7;
-  text-decoration: line-through;
 }
